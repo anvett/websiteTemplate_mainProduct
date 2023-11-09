@@ -1,0 +1,37 @@
+@import 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap');
+@import 'custom-bootstrap';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+// Estilos base
+body {
+  font-family: $font-primary;
+  color: $dark-color;
+  background-color: $light-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-secondary;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+// Botones personalizados, enlaces y otros elementos
+button {
+  font-family: $font-primary;
+}
+
+a {
+  color: $primary-color;
+  &:hover {
+    color: darken($primary-color, 10%);
+  }
+}
+
+// Estilos responsivos y otros estilos globales
+@media (max-width: 768px) {
+  // Tus estilos responsivos aquí
+}
+
