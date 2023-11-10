@@ -1,7 +1,10 @@
-@import 'variables';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap');
+@import 'variables';
+
 @import 'custom-bootstrap';
 @import 'bootstrap/dist/css/bootstrap.min.css';
+//@import 'bootstrap/scss/bootstrap';
+
 
 // Estilos base
 body {

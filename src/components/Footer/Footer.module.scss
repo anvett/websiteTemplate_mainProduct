@@ -1,0 +1,25 @@
+@import '../../styles/variables';
+
+
+
+    .container{
+        
+        .components{
+            background-color: $accent-color;
+
+
+            .modules{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 2rem;
+            }
+        }
+
+        .copyright{
+            padding: 2rem;
+            text-align: center;
+            
+        }
+
+    }

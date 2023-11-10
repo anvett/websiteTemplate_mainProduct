@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Container>
-          <Row className={styles.titleFile}>
+          <Row>
             <h1 className={styles.title}>Test index</h1>
           </Row>
           <Row>
