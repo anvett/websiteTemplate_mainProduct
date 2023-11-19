@@ -2,19 +2,20 @@
 @import 'variables';
 
 @import 'custom-bootstrap';
-@import 'bootstrap/dist/css/bootstrap.min.css';
-//@import 'bootstrap/scss/bootstrap';
+//@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap/scss/bootstrap';
 
 
 // Estilos base
 body {
   font-family: $font-primary;
-  color: $dark-color;
-  background-color: $light-color;
+  color: $light-color;
+  background-color: $secondary-color;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-secondary;
+  color: $light-color;
 }
 
 p {

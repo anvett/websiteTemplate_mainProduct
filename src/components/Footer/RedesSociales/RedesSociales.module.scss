@@ -1,0 +1,24 @@
+@import "../../../styles/variables";
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-bottom: $spacing-4;
+  font-weight: 900;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: $spacing-4;
+
+  a {
+    display: inline-block;
+    margin: 0 $spacing-2;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

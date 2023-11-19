@@ -1,0 +1,68 @@
+@import "../../../styles/variables";
+
+.contactTitle {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: $spacing-2;
+  font-weight: 900;
+  
+}
+
+.contactContent {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+
+  a{
+    color: $light-color;
+  }
+}
+
+.phones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: $spacing-2;
+    padding-bottom: $spacing-3;
+  li {
+    list-style: square;
+    font-size: 0.8rem;
+  }
+}
+
+.contactItem {
+  font-size: 0.8rem;
+
+}
+
+.accion {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  line-height: 10%;
+
+  .accionItem{
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+  a {
+    display: inline-block;
+    margin: 0 $spacing-2;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .accionImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: $spacing-2;
+    
+  }
+}
