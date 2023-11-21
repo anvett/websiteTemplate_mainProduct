@@ -31,7 +31,6 @@ export default function Footer() {
         </Row>
         <Row>
           <LegalInfo/>
-          <span className={styles.copyright}>© 2023 Anvetcorp S.A.S. Derechos Reservados: www.anvetcorp.com</span>
         </Row>
       </Container>
     </footer>

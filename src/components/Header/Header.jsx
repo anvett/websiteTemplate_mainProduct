@@ -4,7 +4,7 @@ import styles from './Header.module.scss';
 
 export default function Header() {
   return (
-    <Navbar bg="light" expand="lg" className={styles.navbar}>
+    <Navbar bg="primary" expand="lg" className={styles.navbar}>
       <Navbar.Brand href="/">Mi Proyecto</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

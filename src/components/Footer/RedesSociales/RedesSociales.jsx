@@ -8,7 +8,7 @@ const RedesSociales = () => {
     <>
       <Row>
         <Col>
-          <h1 className={styles.title}>Marca de la empresa</h1>
+          <h1 className={styles.title}>Mascotas Sanas</h1>
         </Col>
       </Row>
       <Row>

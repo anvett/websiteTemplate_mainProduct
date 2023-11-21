@@ -9,15 +9,15 @@ export default function LegalInfo() {
       <Row>
         <Col className={styles.legalContent}>
           <p className={styles.copyRight}>
-            © {new Date().getFullYear()} Derechos Reservados: MiProyecto.com
+            © {new Date().getFullYear()} Anvetcorp SAS Derechos Reservados www.anvetcorp.com
           </p>
           <p className={styles.legalLinks}>
-            <Link href="/politicas-de-privacidad">
-              <a className={styles.legalLink}>Políticas de Privacidad</a>
+            <Link href="/politicas-de-privacidad" passHref>
+              <span className={styles.legalLink}>Políticas de Privacidad</span>
             </Link>
             {' | '}
-            <Link href="/terminos-y-condiciones">
-              <a className={styles.legalLink}>Términos y Condiciones</a>
+            <Link href="/terminos-y-condiciones" passHref>
+              <span className={styles.legalLink}>Términos y Condiciones</span>
             </Link>
           </p>
         </Col>

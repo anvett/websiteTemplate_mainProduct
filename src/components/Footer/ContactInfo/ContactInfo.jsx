@@ -19,8 +19,8 @@ export default function ContactInfo({
       </Row>
       <Row>
         <Col className={styles.contactContent}>
-          <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
-            <p className={styles.contactItem}>{address} </p>
+          <a className={styles.linkMap} href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
+            {address} 
           </a>
           <ul className={styles.phones}>
             {phoneNumbers.map((phoneNumber, index) => (

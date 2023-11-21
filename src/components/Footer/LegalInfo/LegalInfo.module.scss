@@ -17,9 +17,9 @@
   font-size: 0.8rem;
 
   .legalLink {
-    color: $primary-color;
+    color: $dark-color;
     &:hover {
-      color: darken($primary-color, 10%);
+      color: darken($accent-color, 10%);
     }
   }
 }

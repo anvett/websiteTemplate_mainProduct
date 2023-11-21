@@ -9,17 +9,18 @@
 // Estilos base
 body {
   font-family: $font-primary;
-  color: $light-color;
+  color: $dark-color;
   background-color: $secondary-color;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-secondary;
-  color: $light-color;
+  color: $dark-color;
 }
 
 p {
   font-size: 0.8rem;
+  color: $dark-color;
 }
 
 // Botones personalizados, enlaces y otros elementos
@@ -28,9 +29,9 @@ button {
 }
 
 a {
-  color: $primary-color;
+  color: $dark-color;
   &:hover {
-    color: darken($primary-color, 10%);
+    color: darken($light-color, 10%);
   }
 }
 

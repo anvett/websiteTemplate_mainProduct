@@ -1,9 +1,10 @@
 @import "../../styles/variables";
 
 .container {
-  background-color: $secondary-color;
+  background-color: $primary-color;
 
   .components {
+    padding-top: $spacing-4;
 
     .modules1{
       display: flex;
@@ -30,9 +31,4 @@
     }
   }
 
-  .copyright {
-    padding: 2rem;
-    text-align: center;
-    
-  }
 }
