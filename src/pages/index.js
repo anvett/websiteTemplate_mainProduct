@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "@/styles/Home.module.scss";
 import Calificacion from "@/components/Funcionality/Calificacion/Calificacion";
+import TextoImagen from "@/components/Main/TextoImagen/TextoImagen";
+//import styles from '../components/Main/TextoImagen/TextoImagen.module.scss'
 
 export default function Home() {
   return (
@@ -14,29 +16,30 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <Container>
-          <Row>
-            <h1 className={styles.title}>Test index</h1>
-          </Row>
-          <Row>
-            <Col>
-              <h2 className={styles.subtitle}>Prueba de grid</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi aliquid
-                repudiandae praesentium quia maiores iure doloribus ducimus similique iusto magni?
-              </p>
-            </Col>
-            <Col>
-              <h2 className={styles.subtitle}>Prueba de estilos</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi aliquid
-                repudiandae praesentium quia maiores iure doloribus ducimus similique iusto magni?
-              </p>
-              <Calificacion/>
-            </Col>
-          </Row>
-        </Container>
+        <TextoImagen
+          ladoTexto="izquierda"
+          titulo="Curso digital"
+          texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint beatae ab maxime nulla
+          architecto consequuntur neque ex repudiandae corporis cumque eius ratione possimus
+          iusto magni quibusdam incidunt earum assumenda et necessitatibus iste amet, vel vero
+          inventore. Corporis minus, aut perspiciatis nemo natus eius sed laboriosam error
+          voluptatibus qui possimus voluptas."
+          imageUrl="/images/certificado-mascota-sana.jpg"
+          //className={`${styles.textoImagenComponent}`}
+        />
+        <TextoImagen
+          ladoTexto="derecha"
+          titulo="Información"
+          texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint beatae ab maxime nulla
+          architecto consequuntur neque ex repudiandae corporis cumque eius ratione possimus
+          iusto magni quibusdam incidunt earum assumenda et necessitatibus iste amet, vel vero
+          inventore. Corporis minus, aut perspiciatis nemo natus eius sed laboriosam error
+          voluptatibus qui possimus voluptas."
+          imageUrl="/images/certificado-mascota-sana.jpg"
+          className={`${styles.textoImagenComponent1}`}
+        />
       </main>
     </>
   );
 }
+

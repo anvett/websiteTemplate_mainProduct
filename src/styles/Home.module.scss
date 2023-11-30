@@ -20,3 +20,18 @@
     font-size: 1.5rem;
   }
 }
+
+// Clases personalizadas de estilos como props
+// Componente TextoImagen
+.textoImagenComponent1 {
+  background-color: $secondary-color;
+  h2 {
+    color: $primary-color;
+  }
+  p{
+    color: $dark-color;
+  }
+}
+
+
+
