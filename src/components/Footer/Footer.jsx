@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./Footer.module.scss";
-
 import ContactInfo from "./ContactInfo/ContactInfo";
 import RedesSociales from "./RedesSociales/RedesSociales";
 import LegalInfo from "./LegalInfo/LegalInfo";
+import EnlacesRapidos from "./EnlacesRapidos/EnlacesRapidos";
 
 export default function Footer() {
  
@@ -25,8 +25,7 @@ export default function Footer() {
             <RedesSociales/>
           </Col>
           <Col className={styles.modules3}>
-            <h1 className={styles.moduleTitle}>test row</h1>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <EnlacesRapidos/>
           </Col>
         </Row>
         <Row>

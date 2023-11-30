@@ -19,7 +19,8 @@
   .legalLink {
     color: $dark-color;
     &:hover {
-      color: darken($accent-color, 10%);
+      color: darken($primary-color, 10%);
+      transition: $transition-slow;
     }
   }
 }

@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "@/styles/Home.module.scss";
+import Calificacion from "@/components/Funcionality/Calificacion/Calificacion";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi aliquid
                 repudiandae praesentium quia maiores iure doloribus ducimus similique iusto magni?
               </p>
+              <Calificacion/>
             </Col>
           </Row>
         </Container>

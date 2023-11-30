@@ -1,0 +1,53 @@
+@import "../../styles/variables";
+
+.navbar {
+  background-color: $secondary-color;
+
+  .navBrand{
+    display: flex;
+    color: $primary-color;
+    justify-content: center;
+    align-items: center;
+    gap: $spacing-3;
+    padding-left: $spacing-5;
+
+    .navTitle{
+        font-size: 1.5rem;
+        font-size: 900;
+        &:hover{
+            color: $dark-color;
+            transition: $transition-slow;
+        }
+    }
+
+    .navIcon{
+        height: 50px;
+        width: 50px;
+        &:hover{
+            color: $dark-color;
+            transition: $transition-slow;
+        }
+    }
+
+    
+  }
+
+  .navLinks {
+    color: $primary-color;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: $spacing-5;
+
+    .navLink{
+        color: $primary-color;
+        font-size: 1rem;
+
+        &:hover{
+            text-decoration: underline;
+            color: $dark-color;
+            transition: $transition-slow;
+        }
+    }
+  }
+}

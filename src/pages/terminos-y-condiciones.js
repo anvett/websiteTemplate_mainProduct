@@ -6,15 +6,15 @@ export default function Terminos() {
     <Container>
       <Row>
         <Col className="d-flex justify-content-center align-items-start flex-column pb-5">
-          <h2 className=" text-dark">Términos y Condiciones</h2>
+          <h2 className=" text-primary pt-5">Términos y Condiciones</h2>
 
-          <h5 className="text-danger">Introducción</h5>
+          <h5 className="text-primary">Introducción</h5>
           <p>
             Al utilizar nuestro sitio web y registrarte en el curso "Mascotas Sanas", aceptas estos
             términos y condiciones.
           </p>
 
-          <h5 className="text-danger">Uso del Sitio Web</h5>
+          <h5 className="text-primary">Uso del Sitio Web</h5>
 
           <p>
             El contenido de "Mascotas Sanas" está protegido por derechos de autor y es solo para tu
@@ -22,7 +22,7 @@ export default function Terminos() {
             contenido.
           </p>
 
-          <h5 className="text-danger">Limitación de Responsabilidad</h5>
+          <h5 className="text-primary">Limitación de Responsabilidad</h5>
 
           <p>
             "Mascotas Sanas" no se hace responsable de decisiones tomadas en base a la información
@@ -30,21 +30,21 @@ export default function Terminos() {
             profesional veterinario.
           </p>
 
-          <h5 className="text-danger">Enlaces a Terceros</h5>
+          <h5 className="text-primary">Enlaces a Terceros</h5>
           <p>
             Nuestro sitio puede contener enlaces a sitios web de terceros, sobre los cuales no
             tenemos control ni responsabilidad.
           </p>
 
-          <h5 className="text-danger">Modificaciones al Servicio y Precios</h5>
+          <h5 className="text-primary">Modificaciones al Servicio y Precios</h5>
           <p>
             Nos reservamos el derecho de modificar o descontinuar el curso en cualquier momento.
           </p>
 
-          <h5 className="text-danger">Gobernanza y Ley Aplicable</h5>
+          <h5 className="text-primary">Gobernanza y Ley Aplicable</h5>
           <p>Estos términos se rigen por las leyes de [tu país/jurisdicción].</p>
 
-          <h5 className="text-danger">Contacto</h5>
+          <h5 className="text-primary">Contacto</h5>
 
           <p>
             Para preguntas relacionadas con estos términos, contáctanos en

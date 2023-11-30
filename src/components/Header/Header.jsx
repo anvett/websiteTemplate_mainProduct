@@ -1,17 +1,23 @@
 import React from "react";
 import { Container, Row, Col, Navbar, Nav } from "react-bootstrap";
-import styles from './Header.module.scss';
+import styles from "./Header.module.scss";
+import { MdPets } from "react-icons/md";
 
 export default function Header() {
   return (
-    <Navbar bg="primary" expand="lg" className={styles.navbar}>
-      <Navbar.Brand href="/">Mi Proyecto</Navbar.Brand>
+    <Navbar expand="lg" className={styles.navbar}>
+      <Navbar.Brand className={styles.navBrand} href="/">
+        <MdPets className={styles.navIcon} />
+        <span className={styles.navTitle} >Macotas Sanas</span>
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
+      <Navbar.Collapse id="basic-navbar-nav" className={styles.navLinks}>
         <Nav className="mr-auto">
-          <Nav.Link href="/">Inicio</Nav.Link>
-          <Nav.Link href="/about">Sobre Nosotros</Nav.Link>
-          {/* Agrega más enlaces según sea necesario */}
+          <Nav.Link className={styles.navLink} href="/">Inicio</Nav.Link>
+          <Nav.Link className={styles.navLink} href="/about">Sobre Nosotros</Nav.Link>
+          <Nav.Link className={styles.navLink} href="/">Servicios</Nav.Link>
+          <Nav.Link className={styles.navLink} href="/about">Testimonios</Nav.Link>
+          <Nav.Link className={styles.navLink} href="/about">Contacto</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
