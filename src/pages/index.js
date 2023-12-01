@@ -4,9 +4,31 @@ import { Container, Row, Col } from "react-bootstrap";
 import styles from "@/styles/Home.module.scss";
 import Calificacion from "@/components/Funcionality/Calificacion/Calificacion";
 import TextoImagen from "@/components/Main/TextoImagen/TextoImagen";
+import Slider from "@/components/Main/Slider/Slider";
 //import styles from '../components/Main/TextoImagen/TextoImagen.module.scss'
 
 export default function Home() {
+  const slides = [
+    {
+      imageUrl: "/images/Cover1.jpg",
+      title: "",
+      description:
+        "",
+    },
+    {
+      imageUrl: "/images/Cover2.jpg",
+      title: "",
+      description:
+        "",
+    },
+    {
+      imageUrl: "/images/TitlePL.png",
+      title: "",
+      description:
+        "",
+    },
+  ];
+
   return (
     <>
       <Head>
@@ -16,17 +38,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <TextoImagen
-          ladoTexto="izquierda"
-          titulo="Curso digital"
-          texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint beatae ab maxime nulla
-          architecto consequuntur neque ex repudiandae corporis cumque eius ratione possimus
-          iusto magni quibusdam incidunt earum assumenda et necessitatibus iste amet, vel vero
-          inventore. Corporis minus, aut perspiciatis nemo natus eius sed laboriosam error
-          voluptatibus qui possimus voluptas."
-          imageUrl="/images/certificado-mascota-sana.jpg"
-          //className={`${styles.textoImagenComponent}`}
-        />
+        <Slider slides={slides} />
         <TextoImagen
           ladoTexto="derecha"
           titulo="Información"
@@ -38,8 +50,19 @@ export default function Home() {
           imageUrl="/images/certificado-mascota-sana.jpg"
           className={`${styles.textoImagenComponent1}`}
         />
+        <TextoImagen
+          ladoTexto="izquierda"
+          titulo="Curso digital"
+          texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint beatae ab maxime nulla
+          architecto consequuntur neque ex repudiandae corporis cumque eius ratione possimus
+          iusto magni quibusdam incidunt earum assumenda et necessitatibus iste amet, vel vero
+          inventore. Corporis minus, aut perspiciatis nemo natus eius sed laboriosam error
+          voluptatibus qui possimus voluptas."
+          imageUrl="/images/certificado-mascota-sana.jpg"
+          //className={`${styles.textoImagenComponent}`}
+        />
+        
       </main>
     </>
   );
 }
-
